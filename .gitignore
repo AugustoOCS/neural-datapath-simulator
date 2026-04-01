@@ -205,3 +205,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ambiente virtual
+venv/
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Arquivos de execução / output
+output/
+results/
+*.out
+
+# Dados (caso use simulações)
+data/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
